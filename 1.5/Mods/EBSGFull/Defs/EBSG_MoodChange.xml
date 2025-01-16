@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="True" Name="EBSG_MoodChangeBase">
+        <displayCategory>Mood</displayCategory>
+        <exclusionTags>
+            <li>EBSG_MoodChange</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MoodChangeBase">
+		<defName>EBSG_ExtremePessimism</defName>
+		<label>extreme pessimism</label>
+		<description>Carriers of this gene are constantly prone to getting stuck in a negative mindset, leading them to get lost in negative thoughts extremely quickly while also taking an extremely long time to become happy again compared to normal.</description>
+		<iconPath>EBSG/Gene_ExtremePessimism</iconPath>
+		<statFactors>
+			<EBSG_MoodRiseRate>0.6</EBSG_MoodRiseRate>
+            <EBSG_MoodFallRate>1.8</EBSG_MoodFallRate>
+		</statFactors>
+		<displayOrderInCategory>110.3</displayOrderInCategory>
+		<biostatMet>4</biostatMet>
+	</GeneDef>
+
+    <GeneDef ParentName="EBSG_MoodChangeBase">
+		<defName>EBSG_Pessimism</defName>
+		<label>pessimism</label>
+		<description>Carriers of this gene are constantly prone to getting stuck in a negative mindset, leading them to get lost in negative thoughts faster than normal while also taking longer than most to become happy again.</description>
+		<iconPath>EBSG/Gene_Pessimism</iconPath>
+		<statFactors>
+			<EBSG_MoodRiseRate>0.8</EBSG_MoodRiseRate>
+            <EBSG_MoodFallRate>1.4</EBSG_MoodFallRate>
+		</statFactors>
+		<displayOrderInCategory>110.5</displayOrderInCategory>
+		<biostatMet>2</biostatMet>
+	</GeneDef>
+
+    <GeneDef ParentName="EBSG_MoodChangeBase">
+		<defName>EBSG_Optimism</defName>
+		<label>optimism</label>
+		<description>Carriers of this gene are constantly looking on the brighter side of things, causing them to recover from negative thoughts faster while also taking longer to fall to lower mood levels.</description>
+		<iconPath>EBSG/Gene_Optimism</iconPath>
+		<statFactors>
+			<EBSG_MoodRiseRate>1.4</EBSG_MoodRiseRate>
+            <EBSG_MoodFallRate>0.8</EBSG_MoodFallRate>
+		</statFactors>
+		<displayOrderInCategory>110.8</displayOrderInCategory>
+		<biostatMet>-2</biostatMet>
+	</GeneDef>
+
+    <GeneDef ParentName="EBSG_MoodChangeBase">
+		<defName>EBSG_ExtremeOptimism</defName>
+		<label>extreme optimism</label>
+		<description>Carriers of this gene are constantly looking on the brighter side of things, causing them to recover from negative thoughts extremely fast while also taking longer to fall to lower mood levels.</description>
+		<iconPath>EBSG/Gene_ExtremeOptimism</iconPath>
+		<statFactors>
+			<EBSG_MoodRiseRate>1.8</EBSG_MoodRiseRate>
+            <EBSG_MoodFallRate>0.6</EBSG_MoodFallRate>
+		</statFactors>
+		<displayOrderInCategory>111.0</displayOrderInCategory>
+		<biostatMet>-4</biostatMet>
+	</GeneDef>
+</Defs>

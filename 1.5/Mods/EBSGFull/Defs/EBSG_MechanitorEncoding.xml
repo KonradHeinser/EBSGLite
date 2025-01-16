@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_BadEncodingSpeed</defName>
+        <label>slow encoding speed</label>
+        <iconPath>EBSG/Gene_BadEncodingSpeed</iconPath>
+        <description>Carriers of this gene have issues encoding new subcores to use in mechanoids.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>62</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <SubcoreEncodingSpeed>0.67</SubcoreEncodingSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_EncodingSpeed</defName>
+        <label>fast encoding speed</label>
+        <iconPath>EBSG/Gene_EncodingSpeed</iconPath>
+        <description>Carriers of this gene have improved encoding speed, decreasing the amount of time they need to take to craft new subcores.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>64</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <SubcoreEncodingSpeed>1.50</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.2</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.2</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_ExtremeEncodingSpeed</defName>
+        <label>extremely fast encoding speed</label>
+        <iconPath>EBSG/Gene_ExtremeEncodingSpeed</iconPath>
+        <description>Carriers of this gene have extremely improved encoding speed, decreasing the amount of time they need to take to craft new subcores.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>66</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <SubcoreEncodingSpeed>2.00</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.4</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.4</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+</Defs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Construction">
+        <defName>EBSG_ConstructionIncapable</defName>
+        <label>construction incapable</label>
+        <iconPath>EBSG/Gene_ConstructionIncapable</iconPath>
+        <description>Carriers of this gene have nomadic instincts that prevents them from creating structures.</description>
+        <displayOrderInCategory>41</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <disabledWorkTags>
+            <li>Constructing</li>
+        </disabledWorkTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Construction">
+        <defName>EBSG_Construction</defName>
+        <label>construction instinct</label>
+        <iconPath>EBSG/Gene_Construction</iconPath>
+        <description>Carriers of this gene instinctively know how to build structures faster than normal to protect themselves from outside dangers.\n\nThis instinct will not help them avoid failure while building, just accelerate the rate that they build.</description>
+        <displayOrderInCategory>43</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <ConstructionSpeed>1.50</ConstructionSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Construction">
+        <defName>EBSG_ConstructionExtreme</defName>
+        <label>extreme construction instinct</label>
+        <iconPath>EBSG/Gene_ConstructionExtreme</iconPath>
+        <description>Carriers of this gene instinctively know how to build structures extremely fast compared to normal to protect themselves from outside dangers.\n\nThis instinct will not help them avoid failure while building, just accelerate the rate that they build.</description>
+        <displayOrderInCategory>45</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <ConstructionSpeed>2.00</ConstructionSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>

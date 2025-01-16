@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_BadRemoteShield</defName>
+        <label>weak remote shielding</label>
+        <iconPath>EBSG/Gene_BadRemoteShield</iconPath>
+        <description>Carriers of this gene have issues utilizing their innate remote shielder implant.</description>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechRemoteShieldDistance>0.67</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>0.67</MechRemoteShieldEnergy>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_RemoteShield</defName>
+        <label>strong remote shielding</label>
+        <iconPath>EBSG/Gene_RemoteShield</iconPath>
+        <description>Carriers of this gene have enhanced remote shielding capabilities.</description>
+        <displayOrderInCategory>14</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechRemoteShieldDistance>1.50</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>1.50</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_ExtremeRemoteShield</defName>
+        <label>extremely strong remote shielding</label>
+        <iconPath>EBSG/Gene_ExtremeRemoteShield</iconPath>
+        <description>Carriers of this gene have extremely enhanced remote shielding capabilities.</description>
+        <displayOrderInCategory>16</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechRemoteShieldDistance>2.00</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>2.00</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+</Defs>

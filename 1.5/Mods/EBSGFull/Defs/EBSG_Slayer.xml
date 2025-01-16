@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>EBSG_Slayer</defName>
+        <label>EBSG - Slayer Genes</label>
+        <displayPriorityInXenotype>429.98</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneDef Name="EBSG_SlayerBase" Abstract="True">
+        <displayCategory>EBSG_Slayer</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Slayer</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_SlayerBase">
+        <defName>EBSG_ExtremelyBadSlayer</defName>
+        <label>extremely bad slayer</label>
+        <description>Carriers of this gene have significant difficulty killing other beings, either because of a special wiring in their brains to not take lives, even artificial ones, or just general physical incapability.</description>
+        <iconPath>EBSG/Gene_ExtremelyBadSlayer</iconPath>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>4</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor>0.6</EBSG_OutgoingDamageFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_SlayerBase">
+        <defName>EBSG_BadSlayer</defName>
+        <label>bad slayer</label>
+        <description>Carriers of this gene have issues when trying to kill other beings, either because of a special wiring in their brains to not take lives, even artificial ones, or just general physical incapability.</description>
+        <iconPath>EBSG/Gene_BadSlayer</iconPath>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor>0.8</EBSG_OutgoingDamageFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_SlayerBase">
+        <defName>EBSG_GoodSlayer</defName>
+        <label>good slayer</label>
+        <description>Carriers of this gene instinctively know a lot of the weak points of any enemy they face, making it easier to slay their enemies.</description>
+        <iconPath>EBSG/Gene_GoodSlayer</iconPath>
+        <displayOrderInCategory>8</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor>1.10</EBSG_OutgoingDamageFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_SlayerBase">
+        <defName>EBSG_ExtremelyGoodSlayer</defName>
+        <label>extremely good slayer</label>
+        <description>Carriers of this gene instinctively know every weak point of any enemy they face, making it significantly easier to slay their enemies.</description>
+        <iconPath>EBSG/Gene_ExtremelyGoodSlayer</iconPath>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor>1.20</EBSG_OutgoingDamageFactor>
+        </statFactors>
+    </GeneDef>
+</Defs>

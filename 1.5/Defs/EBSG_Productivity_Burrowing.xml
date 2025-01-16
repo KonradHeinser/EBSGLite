@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Burrowing">
+        <defName>EBSG_BurrowingIncapable</defName>
+        <label>burrowing incapable</label>
+        <iconPath>EBSG/Gene_BurrowingIncapable</iconPath>
+        <description>Carriers of this gene instinctively believe that anything involving digging and burrowing is beneath them.</description>
+        <displayOrderInCategory>61</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <disabledWorkTags>
+            <li>Mining</li>
+        </disabledWorkTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Burrowing">
+        <defName>EBSG_Burrowing</defName>
+        <label>burrowing instinct</label>
+        <iconPath>EBSG/Gene_Burrowing</iconPath>
+        <description>Carriers of this gene instinctively like to burrow into the ground, and as a result will do it faster than most people.\n\nThis instinct will not impact how much they get from mining, only the speed at which they do it. This will impact both normal mining and deep drilling.</description>
+        <displayOrderInCategory>63</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MiningSpeed>1.50</MiningSpeed>
+            <DeepDrillingSpeed>1.50</DeepDrillingSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Burrowing">
+        <defName>EBSG_BurrowingExtreme</defName>
+        <label>extreme burrowing instinct</label>
+        <iconPath>EBSG/Gene_BurrowingExtreme</iconPath>
+        <description>Carriers of this gene instinctively like to burrow into the ground, and as a result will do it extremely fast compared to most people.\n\nThis instinct will not impact how much they get from mining, only the speed at which they do it. This will impact both normal mining and deep drilling.</description>
+        <displayOrderInCategory>65</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MiningSpeed>2.00</MiningSpeed>
+            <DeepDrillingSpeed>2.00</DeepDrillingSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>

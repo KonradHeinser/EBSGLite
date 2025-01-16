@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="EBSG_BiosculptingSpeed" Abstract="true" MayRequire="Ludeon.Rimworld.Ideology">
+        <displayCategory>Healing</displayCategory>
+        <exclusionTags>
+            <li>EBSG_BiosculptingSpeed</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_BiosculptingSpeed" MayRequire="Ludeon.Rimworld.Ideology">
+        <defName>EBSG_SlowBiosculpting</defName>
+        <label>slow biosculpting speed</label>
+        <iconPath>EBSG/Gene_VerySlowBiosculptingSpeed</iconPath>
+        <description>Carriers of this gene require a lot more time in a biosculpter to be affected by it.</description>
+        <displayOrderInCategory>200.1</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <BiosculpterOccupantSpeed>0.33</BiosculpterOccupantSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_BiosculptingSpeed" MayRequire="Ludeon.Rimworld.Ideology">
+        <defName>EBSG_BiosculptingSpeed</defName>
+        <label>fast biosculpting speed</label>
+        <iconPath>EBSG/Gene_BiosculptingSpeed</iconPath>
+        <description>Carriers of this gene are easier to biosculpt, reducing the amount of time it takes the pod to finish its task.</description>
+        <displayOrderInCategory>200.4</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <BiosculpterOccupantSpeed>2.00</BiosculpterOccupantSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_BiosculptingSpeed" MayRequire="Ludeon.Rimworld.Ideology">
+        <defName>EBSG_BiosculptingSpeedExtreme</defName>
+        <label>extremely fast biosculpting speed</label>
+        <iconPath>EBSG/Gene_ExtremeBiosculptingSpeed</iconPath>
+        <description>Carriers of this gene are extremely easy to biosculpt, reducing the amount of time it takes the pod to finish its task.</description>
+        <displayOrderInCategory>200.6</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <BiosculpterOccupantSpeed>3.00</BiosculpterOccupantSpeed>
+        </statFactors>
+    </GeneDef>
+</Defs>

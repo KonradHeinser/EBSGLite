@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_RemoteRepairBase">
+        <defName>EBSG_BadRemoteRepair</defName>
+        <label>weak remote repairing</label>
+        <iconPath>EBSG/Gene_BadRemoteRepair</iconPath>
+        <description>Carriers of this gene have issues utilizing their innate remote repairer implant.</description>
+        <displayOrderInCategory>22</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechRemoteRepairDistance>0.67</MechRemoteRepairDistance>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteRepairBase">
+        <defName>EBSG_RemoteRepair</defName>
+        <label>strong remote repairing</label>
+        <iconPath>EBSG/Gene_RemoteRepair</iconPath>
+        <description>Carriers of this gene have enhanced remote repairing capabilities.</description>
+        <displayOrderInCategory>24</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechRemoteRepairDistance>1.50</MechRemoteRepairDistance>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteRepairBase">
+        <defName>EBSG_ExtremeRemoteRepair</defName>
+        <label>extremely strong remote repairing</label>
+        <iconPath>EBSG/Gene_ExtremeRemoteRepair</iconPath>
+        <description>Carriers of this gene have extremely enhanced remote repairing capabilities.</description>
+        <displayOrderInCategory>26</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechRemoteRepairDistance>2.00</MechRemoteRepairDistance>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+</Defs>

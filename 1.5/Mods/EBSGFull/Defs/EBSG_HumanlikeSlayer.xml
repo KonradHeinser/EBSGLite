@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="EBSG_HumanlikeSlayerBase" Abstract="True">
+        <displayCategory>EBSG_Slayer</displayCategory>
+        <exclusionTags>
+            <li>EBSG_HumanlikeSlayer</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_HumanlikeSlayerBase">
+        <defName>EBSG_ExtremelyBadHumanlikeSlayer</defName>
+        <label>extremely bad humanoid slayer</label>
+        <description>Carriers of this gene have significant difficulty killing other humanoids, either because of a special wiring in their brains telling them to not take the lives of fellow humanoids, or just general inexplicable physical incapability not yet explained by science.</description>
+        <iconPath>EBSG/Gene_ExtremelyBadHumanlikeSlayer</iconPath>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>3</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor_Humanlike>0.4</EBSG_OutgoingDamageFactor_Humanlike>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_HumanlikeSlayerBase">
+        <defName>EBSG_BadHumanlikeSlayer</defName>
+        <label>bad humanoid slayer</label>
+        <description>Carriers of this gene have issues when trying to kill other humanoids, either because of a special wiring in their brains telling them to not take the lives of fellow humanoids, or just general inexplicable physical incapability not yet explained by science.</description>
+        <iconPath>EBSG/Gene_BadHumanlikeSlayer</iconPath>
+        <displayOrderInCategory>104</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor_Humanlike>0.8</EBSG_OutgoingDamageFactor_Humanlike>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_HumanlikeSlayerBase">
+        <defName>EBSG_GoodHumanlikeSlayer</defName>
+        <label>good humanoid slayer</label>
+        <description>Carriers of this gene instinctively know a lot of the weak points of any humanlike enemy they fight, making it easier to slay their enemies.</description>
+        <iconPath>EBSG/Gene_GoodHumanlikeSlayer</iconPath>
+        <displayOrderInCategory>106</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor_Humanlike>1.30</EBSG_OutgoingDamageFactor_Humanlike>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_HumanlikeSlayerBase">
+        <defName>EBSG_ExtremelyGoodHumanlikeSlayer</defName>
+        <label>extremely good humanoid slayer</label>
+        <description>Carriers of this gene instinctively know every weak point of any humanlike enemy they fight, making it significantly easier to slay their enemies.</description>
+        <iconPath>EBSG/Gene_ExtremelyGoodHumanlikeSlayer</iconPath>
+        <displayOrderInCategory>108</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor_Humanlike>1.60</EBSG_OutgoingDamageFactor_Humanlike>
+        </statFactors>
+    </GeneDef>
+</Defs>

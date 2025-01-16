@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="EBSG_GeneSleepingBase" Abstract="True">
+        <displayCategory>Sleep</displayCategory>
+        <exclusionTags>
+            <li>Sleeping</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_GeneSleepingBase">
+        <defName>EBSG_ExtremelySlowSleeper</defName>
+        <label>extremely slow sleeper</label>
+        <description>Carriers of this gene take an extremely long time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
+        <iconPath>EBSG/Gene_ExtremelySlowSleeping</iconPath>
+        <displayOrderInCategory>40.2</displayOrderInCategory>
+        <statFactors>
+            <RestRateMultiplier>0.40</RestRateMultiplier>
+        </statFactors>
+        <biostatMet>4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sleep</symbol></li>
+                <li><symbol>bed</symbol></li>
+                <li><symbol>somno</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>loaf</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+
+    <GeneDef ParentName="EBSG_GeneSleepingBase">
+        <defName>EBSG_SlowSleeper</defName>
+        <label>slow sleeper</label>
+        <description>Carriers of this gene take more time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
+        <iconPath>EBSG/Gene_SlowSleeping</iconPath>
+        <displayOrderInCategory>40.4</displayOrderInCategory>
+        <statFactors>
+            <RestRateMultiplier>0.70</RestRateMultiplier>
+        </statFactors>
+        <biostatMet>2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sleep</symbol></li>
+                <li><symbol>bed</symbol></li>
+                <li><symbol>somno</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>loaf</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_GeneSleepingBase">
+        <defName>EBSG_SlightlyFastSleeper</defName>
+        <label>slightly fast sleeper</label>
+        <description>Carriers of this gene take a little less time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
+        <iconPath>EBSG/Gene_FastSleeping</iconPath>
+        <displayOrderInCategory>40.6</displayOrderInCategory>
+        <statFactors>
+            <RestRateMultiplier>1.20</RestRateMultiplier>
+        </statFactors>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>wake</symbol></li>
+                <li><symbol>night</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_GeneSleepingBase">
+        <defName>EBSG_VeryFastSleeper</defName>
+        <label>very fast sleeper</label>
+        <description>Carriers of this gene take a lot less time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
+        <iconPath>EBSG/Gene_FastSleeping</iconPath>
+        <displayOrderInCategory>40.8</displayOrderInCategory>
+        <statFactors>
+            <RestRateMultiplier>1.60</RestRateMultiplier>
+        </statFactors>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>wake</symbol></li>
+                <li><symbol>night</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_Diurnal</defName>
+        <label>diurnal</label>
+        <description>Carriers of this gene are hard-wired to be awake during the day.</description>
+        <iconPath>EBSG/Gene_Diurnal</iconPath>
+        <displayCategory>Sleep</displayCategory>
+        <displayOrderInCategory>50.8</displayOrderInCategory>
+        <forcedTraits>
+            <li>
+                <def>EBSG_EarlyBird</def>
+            </li>
+        </forcedTraits>
+        <suppressedTraits>
+            <li>
+                <def>NightOwl</def>
+            </li>
+        </suppressedTraits>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>di</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>urnal</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>EBSG_Owl</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_Nocturnal</defName>
+        <label>nocturnal</label>
+        <description>Carriers of this gene are hard-wired to be awake during the night.</description>
+        <iconPath>EBSG/Gene_Nocturnal</iconPath>
+        <displayCategory>Sleep</displayCategory>
+        <displayOrderInCategory>50.9</displayOrderInCategory>
+        <forcedTraits>
+            <li>
+                <def>NightOwl</def>
+            </li>
+        </forcedTraits>
+        <suppressedTraits>
+            <li>
+                <def>EBSG_EarlyBird</def>
+            </li>
+        </suppressedTraits>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>noct</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>urnal</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>EBSG_Owl</li>
+        </exclusionTags>
+    </GeneDef>
+</Defs>
