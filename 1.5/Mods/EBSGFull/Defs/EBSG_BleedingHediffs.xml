@@ -42,16 +42,4 @@
             </li>
         </stages>
     </HediffDef>
-
-    <HediffDef ParentName="EBSG_BleedingHediffBase">
-        <defName>EBSG_ExtremeBloodClotting</defName>
-        <label>extreme blood clotting</label>
-        <description>This pawn has a genetic mutation that decreases bleeding rate to almost zero.</description>
-		<stages>
-			<li>
-                <totalBleedFactor>0.001</totalBleedFactor>
-				<becomeVisible>false</becomeVisible>
-            </li>
-        </stages>
-    </HediffDef>
 </Defs>

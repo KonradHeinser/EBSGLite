@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <GeneDef ParentName="EBSG_Social_Terrifying">
-        <defName>EBSG_ExtremeUnimposing</defName>
-        <label>extremely unimposing</label>
-        <description>Carriers of this gene are innately extremely unimposing, making it more likely that others will ignore them when told to submit.</description>
-        <iconPath>EBSG/Gene_ExtremelyUnimposing</iconPath>
-        <displayOrderInCategory>100.2</displayOrderInCategory>
-        <biostatMet>4</biostatMet>
-        <statFactors>
-            <ArrestSuccessChance>0.40</ArrestSuccessChance>
-            <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.40</SuppressionPower>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_Social_Terrifying">
         <defName>EBSG_Unimposing</defName>
         <label>unimposing</label>
         <description>Carriers of this gene are innately unimposing, making it more likely that others will ignore them when told to submit.</description>

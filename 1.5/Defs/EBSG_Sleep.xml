@@ -8,30 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_GeneSleepingBase">
-        <defName>EBSG_ExtremelySlowSleeper</defName>
-        <label>extremely slow sleeper</label>
-        <description>Carriers of this gene take an extremely long time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
-        <iconPath>EBSG/Gene_ExtremelySlowSleeping</iconPath>
-        <displayOrderInCategory>40.2</displayOrderInCategory>
-        <statFactors>
-            <RestRateMultiplier>0.40</RestRateMultiplier>
-        </statFactors>
-        <biostatMet>4</biostatMet>
-        <biostatCpx>2</biostatCpx>
-        <symbolPack>
-            <prefixSymbols>
-                <li><symbol>sleep</symbol></li>
-                <li><symbol>bed</symbol></li>
-                <li><symbol>somno</symbol></li>
-            </prefixSymbols>
-            <suffixSymbols>
-                <li><symbol>loaf</symbol></li>
-            </suffixSymbols>
-        </symbolPack>
-    </GeneDef>
-
-
-    <GeneDef ParentName="EBSG_GeneSleepingBase">
         <defName>EBSG_SlowSleeper</defName>
         <label>slow sleeper</label>
         <description>Carriers of this gene take more time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
@@ -55,15 +31,15 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_GeneSleepingBase">
-        <defName>EBSG_SlightlyFastSleeper</defName>
-        <label>slightly fast sleeper</label>
-        <description>Carriers of this gene take a little less time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
+        <defName>EBSG_FastSleeper</defName>
+        <label>fast sleeper</label>
+        <description>Carriers of this gene take less time to completely fill their resting need.\n\nResting rate multipliers indirectly impact comfort because laying in beds tends to increase comfort. When spending less time sleeping, it is less likely that the pawn will gain the full comfort that the bed provides.</description>
         <iconPath>EBSG/Gene_FastSleeping</iconPath>
         <displayOrderInCategory>40.6</displayOrderInCategory>
         <statFactors>
-            <RestRateMultiplier>1.20</RestRateMultiplier>
+            <RestRateMultiplier>1.40</RestRateMultiplier>
         </statFactors>
-        <biostatMet>-1</biostatMet>
+        <biostatMet>-2</biostatMet>
         <biostatCpx>1</biostatCpx>
         <symbolPack>
             <prefixSymbols>

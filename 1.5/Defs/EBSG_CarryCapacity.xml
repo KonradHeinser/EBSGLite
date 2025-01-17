@@ -52,16 +52,4 @@
 		<biostatMet>1</biostatMet>
 	</GeneDef>
 
-	<GeneDef ParentName="EBSG_CarryCapacityBase">
-		<defName>EBSG_ExtremelyLowCarryCapacity</defName>
-		<label>extremely low carry</label>
-		<description>Carriers of this gene have an extremely low carry capacity.</description>
-		<iconPath>EBSG/Gene_SuperLowCarryCapacity</iconPath>
-		<statFactors>
-			<CarryingCapacity>0.4</CarryingCapacity>
-			<VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">0.4</VEF_MassCarryCapacity>
-		</statFactors>
-		<displayOrderInCategory>2</displayOrderInCategory>
-		<biostatMet>3</biostatMet>
-	</GeneDef>
 </Defs>

@@ -8,30 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_Shooter">
-        <defName>EBSG_ExtremeTwitchyShooter</defName>
-        <label>extremely twitchy shooter</label>
-        <description>Carriers of this gene are extremely careless with their shots.</description>
-        <iconPath>EBSG/Gene_ExtremelyTwitchyShooter</iconPath>
-        <displayOrderInCategory>102.1</displayOrderInCategory>
-        <biostatMet>-4</biostatMet>
-        <statFactors>
-            <ShootingAccuracyPawn>0.6</ShootingAccuracyPawn>
-            <AimingDelayFactor>0.6</AimingDelayFactor>
-        </statFactors>
-        <symbolPack>
-            <prefixSymbols>
-                <li><symbol>aggro</symbol></li>
-                <li><symbol>hate</symbol></li>
-                <li><symbol>fight</symbol></li>
-                <li><symbol>destro</symbol></li>
-            </prefixSymbols>
-            <suffixSymbols>
-                <li><symbol>fighter</symbol></li>
-            </suffixSymbols>
-        </symbolPack>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_Shooter">
         <defName>EBSG_TwitchyShooter</defName>
         <label>twitchy shooter</label>
         <description>Carriers of this gene are careless with their shots.</description>
@@ -65,28 +41,6 @@
         <statFactors>
             <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
             <AimingDelayFactor>1.2</AimingDelayFactor>
-        </statFactors>
-        <symbolPack>
-            <prefixSymbols>
-                <li><symbol>caut</symbol></li>
-                <li><symbol>calm</symbol></li>
-            </prefixSymbols>
-            <suffixSymbols>
-                <li><symbol>fighter</symbol></li>
-            </suffixSymbols>
-        </symbolPack>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_Shooter">
-        <defName>EBSG_ExtremelyCarefulShooter</defName>
-        <label>extremely careful shooter</label>
-        <description>Carriers of this gene are extremely over-meticulous with their shots.</description>
-        <iconPath>EBSG/Gene_ExtremelyCarefulShooter</iconPath>
-        <displayOrderInCategory>102.8</displayOrderInCategory>
-        <biostatMet>-4</biostatMet>
-        <statFactors>
-            <ShootingAccuracyPawn>1.4</ShootingAccuracyPawn>
-            <AimingDelayFactor>1.4</AimingDelayFactor>
         </statFactors>
         <symbolPack>
             <prefixSymbols>

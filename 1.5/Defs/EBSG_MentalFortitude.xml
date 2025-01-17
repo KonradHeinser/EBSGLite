@@ -8,27 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MentalFortitude">
-        <defName>EBSG_ExtremeStubborn</defName>
-        <label>extremely stubborn</label>
-        <description>Carriers of this gene are extremely stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>
-        <iconPath>EBSG/Gene_ExtremelyStubborn</iconPath>
-        <displayOrderInCategory>100.2</displayOrderInCategory>
-        <biostatMet>-4</biostatMet>
-        <statOffsets>
-            <MentalBreakThreshold>-0.20</MentalBreakThreshold>
-        </statOffsets>
-        <statFactors>
-            <SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">2.00</SlaveSuppressionFallRate>
-            <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.6</CertaintyLossFactor>
-        </statFactors>
-        <symbolPack>
-            <prefixSymbols>
-                <li><symbol>stub</symbol></li>
-            </prefixSymbols>
-        </symbolPack>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MentalFortitude">
         <defName>EBSG_Stubborn</defName>
         <label>stubborn</label>
         <description>Carriers of this gene are stubborn, making it more likely that they will resist being told what to do, and less likely that they will break under pressure.</description>

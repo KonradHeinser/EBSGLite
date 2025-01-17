@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <GeneDef ParentName="EBSG_Social_Convincing">
-        <defName>EBSG_ExtremeUnconvincing</defName>
-        <label>extremely unconvincing</label>
-        <description>Carriers of this gene are innately extremely unconvincing, making it much harder for them to convince others to join their side.</description>
-        <iconPath>EBSG/Gene_ExtremelyUnconvincing</iconPath>
-        <displayOrderInCategory>104.2</displayOrderInCategory>
-        <biostatMet>4</biostatMet>
-        <statFactors>
-            <NegotiationAbility>0.40</NegotiationAbility>
-            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.40</ConversionPower>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_Social_Convincing">
         <defName>EBSG_Unconvincing</defName>
         <label>unconvincing</label>
         <description>Carriers of this gene are innately unconvincing, making it much harder for them to convince others to join their side.</description>

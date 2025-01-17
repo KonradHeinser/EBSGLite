@@ -79,28 +79,4 @@
 			</li>
 		</modExtensions>
     </GeneDef>
-
-    <GeneDef ParentName="EBSG_BleedingBase">
-        <defName>EBSG_ExtremeBloodClotting</defName>
-        <label>extreme blood clotting</label>
-        <description>Carriers of this gene are almost incapable of losing blood to open wounds. Unlike superclotting, this will not actually close any wounds, just help the pawn avoid experiencing blood loss.\n\nOn the off-chance that there is something that divides by the bleeding rate multiplier, this was set to a number slightly above zero.</description>
-        <displayOrderInCategory>99.8</displayOrderInCategory>
-        <iconPath>EBSG/Gene_MajorBloodClotting</iconPath>
-        <biostatMet>-4</biostatMet>
-        <symbolPack>
-            <prefixSymbols>
-                <li><symbol>clot</symbol></li>
-                <li><symbol>scab</symbol></li>
-            </prefixSymbols>
-            <suffixSymbols>
-                <li><symbol>clot</symbol></li>
-                <li><symbol>scab</symbol></li>
-            </suffixSymbols>
-        </symbolPack>
-		<modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-				<hediffsToApply><li><hediff>EBSG_ExtremeBloodClotting</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
 </Defs>
