@@ -14,19 +14,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_SlayerBase">
-        <defName>EBSG_ExtremelyBadSlayer</defName>
-        <label>extremely bad slayer</label>
-        <description>Carriers of this gene have significant difficulty killing other beings, either because of a special wiring in their brains to not take lives, even artificial ones, or just general physical incapability.</description>
-        <iconPath>EBSG/Gene_ExtremelyBadSlayer</iconPath>
-        <displayOrderInCategory>3</displayOrderInCategory>
-        <biostatCpx>2</biostatCpx>
-        <biostatMet>4</biostatMet>
-        <statFactors>
-            <EBSG_OutgoingDamageFactor>0.6</EBSG_OutgoingDamageFactor>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_SlayerBase">
         <defName>EBSG_BadSlayer</defName>
         <label>bad slayer</label>
         <description>Carriers of this gene have issues when trying to kill other beings, either because of a special wiring in their brains to not take lives, even artificial ones, or just general physical incapability.</description>

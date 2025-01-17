@@ -13,23 +13,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_DamagedKidney</defName>
-        <label>damaged kidney</label>
-        <iconPath>EBSG/Gene_DamagedKidney</iconPath>
-        <displayOrderInCategory>0.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Kidney</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One kidney loses 50% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_DamagedKidney</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
         <defName>EBSG_MissingKidney</defName>
         <label>missing kidney</label>
         <iconPath>EBSG/Gene_MissingKidney</iconPath>
@@ -47,41 +30,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_MissingAndDamagedKidney</defName>
-        <label>missing kidney and damaged kidney</label>
-        <iconPath>EBSG/Gene_MissingAndDamagedKidney</iconPath>
-        <displayOrderInCategory>0.3</displayOrderInCategory>
-        <biostatMet>3</biostatMet>
-        <exclusionTags><li>EBSG_Kidney</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One kidney will be removed on spawn.</li>
-            <li>One kidney loses 50% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_MissingAndDamagedKidney</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_DamagedLung</defName>
-        <label>damaged lung</label>
-        <iconPath>EBSG/Gene_DamagedLung</iconPath>
-        <displayOrderInCategory>1.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Lung</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One lung loses 50% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_DamagedLung</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
         <defName>EBSG_MissingLung</defName>
         <label>missing lung</label>
         <iconPath>EBSG/Gene_MissingLung</iconPath>
@@ -94,41 +42,6 @@
         <modExtensions>
 			<li Class="EBSGFramework.EBSGExtension">
                 <hediffsToApply><li><hediff>EBSG_MissingLung</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_MissingAndDamagedLung</defName>
-        <label>missing lung and damaged lung</label>
-        <iconPath>EBSG/Gene_MissingAndDamagedLung</iconPath>
-        <displayOrderInCategory>1.3</displayOrderInCategory>
-        <biostatMet>3</biostatMet>
-        <exclusionTags><li>EBSG_Lung</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One lung will be removed on spawn.</li>
-            <li>One lung loses 50% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_MissingAndDamagedLung</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_DamagedArm</defName>
-        <label>damaged arm</label>
-        <iconPath>EBSG/Gene_DamagedArm</iconPath>
-        <displayOrderInCategory>2.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Arm</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One arm loses 50% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_DamagedArm</hediff></li></hediffsToApply>
 			</li>
 		</modExtensions>
     </GeneDef>
@@ -152,42 +65,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_MissingAndDamagedArm</defName>
-        <label>missing arm and damaged arm</label>
-        <iconPath>EBSG/Gene_MissingAndDamagedArm</iconPath>
-        <displayOrderInCategory>2.3</displayOrderInCategory>
-        <biostatMet>3</biostatMet>
-        <exclusionTags><li>EBSG_Arm</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One arm will be removed on spawn.</li>
-            <li>One arm loses 50% health on spawn.</li>
-            <li>Causes bleeding on spawn, but only needs tended to once (it's a weird Rimworld issue).</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_MissingAndDamagedArm</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_DamagedLeg</defName>
-        <label>damaged leg</label>
-        <iconPath>EBSG/Gene_DamagedLeg</iconPath>
-        <displayOrderInCategory>3.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Leg</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One leg loses 50% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_DamagedLeg</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
         <defName>EBSG_MissingLeg</defName>
         <label>missing leg</label>
         <iconPath>EBSG/Gene_MissingLeg</iconPath>
@@ -201,25 +78,6 @@
         <modExtensions>
 			<li Class="EBSGFramework.EBSGExtension">
                 <hediffsToApply><li><hediff>EBSG_MissingLeg</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_MissingAndDamagedLeg</defName>
-        <label>missing leg and damaged leg</label>
-        <iconPath>EBSG/Gene_MissingAndDamagedLeg</iconPath>
-        <displayOrderInCategory>3.3</displayOrderInCategory>
-        <biostatMet>3</biostatMet>
-        <exclusionTags><li>EBSG_Leg</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>One leg will be removed on spawn.</li>
-            <li>One leg loses 50% health on spawn.</li>
-            <li>Causes bleeding on spawn, but only needs tended to once (it's a weird Rimworld issue).</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_MissingAndDamagedLeg</hediff></li></hediffsToApply>
 			</li>
 		</modExtensions>
     </GeneDef>
@@ -297,23 +155,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_SlightlyDamagedBrain</defName>
-        <label>slightly damaged brain</label>
-        <iconPath>EBSG/Gene_SlightlyDamagedBrain</iconPath>
-        <displayOrderInCategory>6.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Brain</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>Brain loses 10% health on spawn. While small, this damage is hard to heal, and causes a wider range of effects.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_SlightlyDamagedBrain</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
         <defName>EBSG_DamagedBrain</defName>
         <label>damaged brain</label>
         <iconPath>EBSG/Gene_DamagedBrain</iconPath>
@@ -326,23 +167,6 @@
         <modExtensions>
 			<li Class="EBSGFramework.EBSGExtension">
                 <hediffsToApply><li><hediff>EBSG_DamagedBrain</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_SlightlyDamagedHeart</defName>
-        <label>slightly damaged heart</label>
-        <iconPath>EBSG/Gene_SlightlyDamagedHeart</iconPath>
-        <displayOrderInCategory>7.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Heart</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>Heart loses 25% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_SlightlyDamagedHeart</hediff></li></hediffsToApply>
 			</li>
 		</modExtensions>
     </GeneDef>
@@ -365,23 +189,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_SlightlyDamagedLiver</defName>
-        <label>slightly damaged liver</label>
-        <iconPath>EBSG/Gene_SlightlyDamagedLiver</iconPath>
-        <displayOrderInCategory>8.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Liver</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>Liver loses 25% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_SlightlyDamagedLiver</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
         <defName>EBSG_DamagedLiver</defName>
         <label>damaged liver</label>
         <iconPath>EBSG/Gene_DamagedLiver</iconPath>
@@ -394,23 +201,6 @@
         <modExtensions>
 			<li Class="EBSGFramework.EBSGExtension">
                 <hediffsToApply><li><hediff>EBSG_DamagedLiver</hediff></li></hediffsToApply>
-			</li>
-		</modExtensions>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MissingPartBase">
-        <defName>EBSG_SlightlyDamagedSpine</defName>
-        <label>slightly damaged spine</label>
-        <iconPath>EBSG/Gene_SlightlyDamagedSpine</iconPath>
-        <displayOrderInCategory>9.1</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <exclusionTags><li>EBSG_Spine</li></exclusionTags>
-        <customEffectDescriptions>
-            <li>Spine loses 25% health on spawn.</li>
-        </customEffectDescriptions>
-        <modExtensions>
-			<li Class="EBSGFramework.EBSGExtension">
-                <hediffsToApply><li><hediff>EBSG_SlightlyDamagedSpine</hediff></li></hediffsToApply>
 			</li>
 		</modExtensions>
     </GeneDef>

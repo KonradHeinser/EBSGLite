@@ -8,18 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_DeathrestSpeedBase">
-        <defName>EBSG_VerySlowDeathrestSpeed</defName>
-        <label>very slow deathrest speed</label>
-        <description>Carriers of this gene require 2.5 times as much time to complete a period of deathresting.</description>
-        <iconPath>EBSG/Gene_TerribleDeathrestSpeed</iconPath>
-        <displayOrderInCategory>666.2</displayOrderInCategory>
-        <biostatMet>3</biostatMet>
-        <statFactors>
-            <EBSG_DeathrestEfficiency>0.40</EBSG_DeathrestEfficiency>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_DeathrestSpeedBase">
         <defName>EBSG_SlowDeathrestSpeed</defName>
         <label>slow deathrest speed</label>
         <description>Carriers of this gene require 1.66 times as much time to complete a period of deathresting.</description>

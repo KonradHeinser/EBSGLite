@@ -14,19 +14,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_ComfortChangeBase">
-		<defName>EBSG_ExtremeHedonism</defName>
-		<label>extremely hedonism</label>
-		<description>Carriers of this gene are constantly focusing on living a comfortable lifestyle, leading them to experience discomfort extremely quickly while also taking an extremely long time to feel very comfortable compared to normal.</description>
-		<iconPath>EBSG/Gene_ExtremeHedonism</iconPath>
-		<statFactors>
-			<EBSG_ComfortRiseRate>0.6</EBSG_ComfortRiseRate>
-            <EBSG_ComfortFallRate>1.8</EBSG_ComfortFallRate>
-		</statFactors>
-		<displayOrderInCategory>0.3</displayOrderInCategory>
-		<biostatMet>4</biostatMet>
-	</GeneDef>
-
-    <GeneDef ParentName="EBSG_ComfortChangeBase">
 		<defName>EBSG_Hedonism</defName>
 		<label>hedonism</label>
 		<description>Carriers of this gene are constantly focusing on living a comfortable lifestyle, leading them to experience discomfort faster than normal while also taking longer than most to feel very comfortable.</description>

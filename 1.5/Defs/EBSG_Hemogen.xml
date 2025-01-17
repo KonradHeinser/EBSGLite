@@ -3,25 +3,13 @@
     <GeneDef Name="EBSG_HemogenGain" Abstract="true">
         <displayCategory>Hemogen</displayCategory>
         <prerequisite>Hemogenic</prerequisite>
+        <minAgeActive>3</minAgeActive>
         <exclusionTags>
             <li>EBSG_HemogenGain</li>
         </exclusionTags>
     </GeneDef>
 
-            <!--You're welcome for the headache.-->
-    <GeneDef ParentName="EBSG_HemogenGain">
-        <defName>EBSG_HemogenGainLossMajor</defName>
-        <label>very inefficient hemo-precessing</label>
-        <iconPath>EBSG/Gene_HemogenGainLoss</iconPath>
-        <description>Carriers of this gene are almost completely incapable of process the blood of others into hemogen.</description>
-        <displayOrderInCategory>1</displayOrderInCategory>
-        <biostatMet>3</biostatMet>
-        <minAgeActive>3</minAgeActive>
-        <statFactors>
-            <HemogenGainFactor>0.25</HemogenGainFactor>
-        </statFactors>
-    </GeneDef>
-
+    <!--You're welcome for the headache.-->
     <GeneDef ParentName="EBSG_HemogenGain">
         <defName>EBSG_HemogenGainLoss</defName>
         <label>inefficient hemo-precessing</label>

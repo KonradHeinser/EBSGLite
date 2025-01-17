@@ -8,19 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_AnimalSlayerBase">
-        <defName>EBSG_ExtremelyBadAnimalSlayer</defName>
-        <label>extremely bad animal slayer</label>
-        <description>Carriers of this gene have significant difficulty killing animals, either because of a special wiring in their brains telling them to not take the lives of animals, or just general inexplicable physical incapability not yet explained by science.</description>
-        <iconPath>EBSG/Gene_ExtremelyBadAnimalSlayer</iconPath>
-        <displayOrderInCategory>302</displayOrderInCategory>
-        <biostatCpx>1</biostatCpx>
-        <biostatMet>3</biostatMet>
-        <statFactors>
-            <EBSG_OutgoingDamageFactor_Animal>0.4</EBSG_OutgoingDamageFactor_Animal>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_AnimalSlayerBase">
         <defName>EBSG_BadAnimalSlayer</defName>
         <label>bad animal slayer</label>
         <description>Carriers of this gene have issues when trying to kill animals, either because of a special wiring in their brains telling them to not take the lives of animals, or just general inexplicable physical incapability not yet explained by science.</description>

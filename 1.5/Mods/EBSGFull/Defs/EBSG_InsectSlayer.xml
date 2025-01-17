@@ -8,19 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_InsectSlayerBase">
-        <defName>EBSG_ExtremelyBadInsectSlayer</defName>
-        <label>extremely bad insect slayer</label>
-        <description>Carriers of this gene have significant difficulty killing other insects, either because of a special wiring in their brains to not take the lives of insectoids, or just general inexplicable physical incapability not yet explained by science.</description>
-        <iconPath>EBSG/Gene_ExtremelyBadInsectSlayer</iconPath>
-        <displayOrderInCategory>402</displayOrderInCategory>
-        <biostatCpx>1</biostatCpx>
-        <biostatMet>3</biostatMet>
-        <statFactors>
-            <EBSG_OutgoingDamageFactor_Insect>0.4</EBSG_OutgoingDamageFactor_Insect>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_InsectSlayerBase">
         <defName>EBSG_BadInsectSlayer</defName>
         <label>bad insect slayer</label>
         <description>Carriers of this gene have issues when trying to kill other insects, either because of a special wiring in their brains to not take the lives of insectoids, or just general inexplicable physical incapability not yet explained by science.</description>

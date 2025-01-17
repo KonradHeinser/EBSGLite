@@ -8,18 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_RecreationChangeBase">
-		<defName>EBSG_ExtremeGloominess</defName>
-		<label>extremely gloominess</label>
-		<description>Carriers of this gene are constantly feeling gloomy, leading them need to spend an extremely long time fulfilling their recreation need.</description>
-		<iconPath>EBSG/Gene_ExtremeGloominess</iconPath>
-		<statFactors>
-			<EBSG_JoyRiseRate>0.6</EBSG_JoyRiseRate>
-		</statFactors>
-		<displayOrderInCategory>20.3</displayOrderInCategory>
-		<biostatMet>4</biostatMet>
-	</GeneDef>
-
-    <GeneDef ParentName="EBSG_RecreationChangeBase">
 		<defName>EBSG_Gloominess</defName>
 		<label>gloominess</label>
 		<description>Carriers of this gene are constantly feeling gloomy, leading them need to spend a longer amount of time fulfilling their recreation need.</description>

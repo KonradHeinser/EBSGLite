@@ -8,19 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_EntitySlayerBase" MayRequire="Ludeon.Rimworld.Anomaly">
-        <defName>EBSG_ExtremelyBadEntitySlayer</defName>
-        <label>extremely bad entity slayer</label>
-        <description>Carriers of this gene have significant difficulty killing entities, either because of a special wiring in their brains to not take the lives of entities, or just general inexplicable physical incapability not yet explained by science.</description>
-        <iconPath>EBSG/Gene_ExtremelyBadEntitySlayer</iconPath>
-        <displayOrderInCategory>502</displayOrderInCategory>
-        <biostatCpx>1</biostatCpx>
-        <biostatMet>3</biostatMet>
-        <statFactors>
-            <EBSG_OutgoingDamageFactor_Entity>0.4</EBSG_OutgoingDamageFactor_Entity>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_EntitySlayerBase" MayRequire="Ludeon.Rimworld.Anomaly">
         <defName>EBSG_BadEntitySlayer</defName>
         <label>bad entity slayer</label>
         <description>Carriers of this gene have issues when trying to kill entities, either because of a special wiring in their brains to not take the lives of entities, or just general inexplicable physical incapability not yet explained by science.</description>

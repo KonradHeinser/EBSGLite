@@ -8,19 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MechanoidSlayerBase">
-        <defName>EBSG_ExtremelyBadMechanoidSlayer</defName>
-        <label>extremely bad mechanoid slayer</label>
-        <description>Carriers of this gene have significant difficulty killing mechanoids, either because of a special wiring in their brains telling them to not destroy potential members of the mechanoid hive, or just general inexplicable physical incapability not yet explained by science.</description>
-        <iconPath>EBSG/Gene_ExtremelyBadMechanoidSlayer</iconPath>
-        <displayOrderInCategory>202</displayOrderInCategory>
-        <biostatCpx>1</biostatCpx>
-        <biostatMet>3</biostatMet>
-        <statFactors>
-            <EBSG_OutgoingDamageFactor_Mechanoid>0.4</EBSG_OutgoingDamageFactor_Mechanoid>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_MechanoidSlayerBase">
         <defName>EBSG_BadMechanoidSlayer</defName>
         <label>bad mechanoid slayer</label>
         <description>Carriers of this gene have issues when trying to kill mechanoids, either because of a special wiring in their brains telling them to not destroy potential members of the mechanoid hive, or just general inexplicable physical incapability not yet explained by science.</description>

@@ -20,18 +20,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_Crusader">
-        <defName>EBSG_Heathen</defName>
-        <label>heathen</label>
-        <description>Carriers of this gene instinctively dislike the idea of suppressing entities visiting from the void, and as a result won't be effective at doing so.\n\nWARNING: Due to how suppression work is handled, you probably don't want this on your warden.</description>
-        <displayOrderInCategory>101</displayOrderInCategory>
-        <iconPath>EBSG/EBSG_Heathen</iconPath>
-        <biostatMet>2</biostatMet>
-        <statFactors>
-            <ActivitySuppressionRate>0.33</ActivitySuppressionRate>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_Crusader">
         <defName>EBSG_Crusader</defName>
         <label>crusader</label>
         <description>Carriers of this gene instinctively seek to stop the darkness that creeps out from the void, making them better at suppressing anomalies.</description>

@@ -8,19 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_HumanlikeSlayerBase">
-        <defName>EBSG_ExtremelyBadHumanlikeSlayer</defName>
-        <label>extremely bad humanoid slayer</label>
-        <description>Carriers of this gene have significant difficulty killing other humanoids, either because of a special wiring in their brains telling them to not take the lives of fellow humanoids, or just general inexplicable physical incapability not yet explained by science.</description>
-        <iconPath>EBSG/Gene_ExtremelyBadHumanlikeSlayer</iconPath>
-        <displayOrderInCategory>102</displayOrderInCategory>
-        <biostatCpx>1</biostatCpx>
-        <biostatMet>3</biostatMet>
-        <statFactors>
-            <EBSG_OutgoingDamageFactor_Humanlike>0.4</EBSG_OutgoingDamageFactor_Humanlike>
-        </statFactors>
-    </GeneDef>
-
-    <GeneDef ParentName="EBSG_HumanlikeSlayerBase">
         <defName>EBSG_BadHumanlikeSlayer</defName>
         <label>bad humanoid slayer</label>
         <description>Carriers of this gene have issues when trying to kill other humanoids, either because of a special wiring in their brains telling them to not take the lives of fellow humanoids, or just general inexplicable physical incapability not yet explained by science.</description>

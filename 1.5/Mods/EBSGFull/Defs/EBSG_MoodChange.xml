@@ -8,19 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_MoodChangeBase">
-		<defName>EBSG_ExtremePessimism</defName>
-		<label>extreme pessimism</label>
-		<description>Carriers of this gene are constantly prone to getting stuck in a negative mindset, leading them to get lost in negative thoughts extremely quickly while also taking an extremely long time to become happy again compared to normal.</description>
-		<iconPath>EBSG/Gene_ExtremePessimism</iconPath>
-		<statFactors>
-			<EBSG_MoodRiseRate>0.6</EBSG_MoodRiseRate>
-            <EBSG_MoodFallRate>1.8</EBSG_MoodFallRate>
-		</statFactors>
-		<displayOrderInCategory>110.3</displayOrderInCategory>
-		<biostatMet>4</biostatMet>
-	</GeneDef>
-
-    <GeneDef ParentName="EBSG_MoodChangeBase">
 		<defName>EBSG_Pessimism</defName>
 		<label>pessimism</label>
 		<description>Carriers of this gene are constantly prone to getting stuck in a negative mindset, leading them to get lost in negative thoughts faster than normal while also taking longer than most to become happy again.</description>

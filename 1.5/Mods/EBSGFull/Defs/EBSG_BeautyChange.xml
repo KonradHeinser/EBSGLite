@@ -8,19 +8,6 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_BeautyChangeBase">
-		<defName>EBSG_ExtremeAesthetism</defName>
-		<label>extremely aesthetism</label>
-		<description>Carriers of this gene are constantly focusing on living in beautiful environments, leading them to become dissatisfied with the surrounding beauty extremely quickly while also taking an extremely long time to feel happy about the appearance of the area around them compared to normal.</description>
-		<iconPath>EBSG/Gene_ExtremeAesthetism</iconPath>
-		<statFactors>
-			<EBSG_BeautyRiseRate>0.6</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>1.8</EBSG_BeautyFallRate>
-		</statFactors>
-		<displayOrderInCategory>10.3</displayOrderInCategory>
-		<biostatMet>4</biostatMet>
-	</GeneDef>
-
-    <GeneDef ParentName="EBSG_BeautyChangeBase">
 		<defName>EBSG_Aesthetism</defName>
 		<label>aesthetism</label>
 		<description>Carriers of this gene are constantly focusing on living in beautiful environments, leading them to become dissatisfied with the surrounding beauty faster than normal while also taking longer than most to feel happy about the appearance of the area around them.</description>
