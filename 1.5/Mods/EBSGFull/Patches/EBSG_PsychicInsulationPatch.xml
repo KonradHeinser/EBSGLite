@@ -90,8 +90,8 @@
                     </nomatch>
                 </li>
 
-                <li Class="EBSGFramework.PatchOperationSetting">
-                    <setting>psychicInsulationBondMood</setting>
+                <li Class="EBSGFramework.PatchOperationFlexibleSetting">
+                    <setting>EBSG_PsychicInsulationBondMood</setting>
                     <active Class="PatchOperationSequence">
                         <operations>
                             <li Class="PatchOperationConditional">
@@ -129,8 +129,8 @@
                     </active>
                 </li>
 
-                <li Class="EBSGFramework.PatchOperationSetting">
-                    <setting>psychicInsulationBondOpinion</setting>
+                <li Class="EBSGFramework.PatchOperationFlexibleSetting">
+                    <setting>EBSG_PsychicInsulationBondOpinion</setting>
                     <active Class="PatchOperationConditional">
                         <xpath>Defs/ThoughtDef[defName="PsychicBond"]/nullifyingGenes</xpath>
                         <match Class="PatchOperationAdd">
@@ -151,8 +151,8 @@
         </match>
     </Operation>
 
-    <Operation Class="EBSGFramework.PatchOperationSetting">
-        <setting>noInnatePsylinkPrereq</setting>
+    <Operation Class="EBSGFramework.PatchOperationFlexibleSetting">
+        <setting>EBSG_NoInnatePsylinkPrereq</setting>
         <active Class="PatchOperationRemove">
             <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnatePsychicAmplifier"]</xpath>
         </active>

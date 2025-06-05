@@ -20,10 +20,24 @@
         </match>
     </Operation>
 
-    <Operation Class="EBSGFramework.PatchOperationSetting">
-        <setting>noInnateMechlinkPrereq</setting>
+    <Operation Class="EBSGFramework.PatchOperationFlexibleSetting">
+        <setting>EBSG_NoInnateMechlinkPrereq</setting>
         <active Class="PatchOperationRemove">
             <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateMechlink"]</xpath>
+        </active>
+    </Operation>
+
+    <Operation Class="EBSGFramework.PatchOperationFlexibleSetting">
+        <setting>EBSG_NoInnateRemotePrereqs</setting>
+        <active Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateRemoteShield"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateRemoteRepair"]</xpath>
+                </li>
+            </operations>
         </active>
     </Operation>
 

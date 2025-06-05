@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="EBSGFramework.PatchOperationSetting">
-        <setting>superclottingArchite</setting>
+    <Operation Class="EBSGFramework.PatchOperationFlexibleSetting">
+        <setting>EBSG_SuperclottingArchite</setting>
         <active Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationConditional">
