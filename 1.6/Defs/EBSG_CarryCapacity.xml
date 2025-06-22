@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>EBSG_CarryCapacity</defName>
+        <label>carry capacities</label>
+        <displayPriorityInXenotype>499.98</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneDef Abstract="true" Name="EBSG_CarryCapacityBase">
+		<displayCategory>EBSG_CarryCapacity</displayCategory>
+        <exclusionTags>
+			<li>EBSG_CarryCapacities</li>
+		</exclusionTags>
+    </GeneDef>
+
+	<GeneDef ParentName="EBSG_CarryCapacityBase">
+		<defName>EBSG_ExtremelyHighCarryCapacity</defName>
+		<label>extremely high carry</label>
+		<description>Carriers of this gene have an extremely high carry capacity.</description>
+		<iconPath>EBSG/Gene_SuperHighCarryCapacity</iconPath>
+		<statFactors>
+			<CarryingCapacity>1.6</CarryingCapacity>
+			<VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">1.6</VEF_MassCarryCapacity>
+		</statFactors>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<biostatMet>-3</biostatMet>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSG_CarryCapacityBase">
+		<defName>EBSG_HighCarryCapacity</defName>
+		<label>high carry capacity</label>
+		<description>Carriers of this gene have a high carry capacity.</description>
+		<iconPath>EBSG/Gene_HighCarryCapacity</iconPath>
+		<statFactors>
+			<CarryingCapacity>1.2</CarryingCapacity>
+			<VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">1.2</VEF_MassCarryCapacity>
+		</statFactors>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+	</GeneDef>
+
+	<GeneDef ParentName="EBSG_CarryCapacityBase">
+		<defName>EBSG_LowCarryCapacity</defName>
+		<label>low carry capacity</label>
+		<description>Carriers of this gene have a low carry capacity.</description>
+		<iconPath>EBSG/Gene_LowCarryCapacity</iconPath>
+		<statFactors>
+			<CarryingCapacity>0.8</CarryingCapacity>
+			<VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">0.8</VEF_MassCarryCapacity>
+		</statFactors>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+
+</Defs>

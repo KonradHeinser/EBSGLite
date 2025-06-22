@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_EntropyRecoveryBase" MayRequire="Ludeon.Rimworld.Royalty">
+        <defName>EBSG_BadEntropyRecovery</defName>
+        <label>bad heat recovery</label>
+        <iconPath>EBSG/Gene_BadEntropyRecovery</iconPath>
+        <description>Carriers of this gene have difficulties recovering from entropy accrual, recovering entropy at two-thirds the normal rate.</description>
+        <displayOrderInCategory>313.1</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <PsychicEntropyRecoveryRate>0.67</PsychicEntropyRecoveryRate>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EntropyRecoveryBase" MayRequire="Ludeon.Rimworld.Royalty">
+        <defName>EBSG_EntropyRecovery</defName>
+        <label>heat recovery</label>
+        <iconPath>EBSG/Gene_EntropyRecovery</iconPath>
+        <description>Carriers of this gene lose neural heat faster than normal.</description>
+        <displayOrderInCategory>313.4</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <PsychicEntropyRecoveryRate>1.50</PsychicEntropyRecoveryRate>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EntropyRecoveryBase" MayRequire="Ludeon.Rimworld.Royalty">
+        <defName>EBSG_ExtremeEntropyRecovery</defName>
+        <label>extreme heat recovery</label>
+        <iconPath>EBSG/Gene_ExtremeEntropyRecovery</iconPath>
+        <description>Carriers of this gene lose neural heat extremely fast compared to normal.</description>
+        <displayOrderInCategory>313.6</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <PsychicEntropyRecoveryRate>2.00</PsychicEntropyRecoveryRate>
+        </statFactors>
+    </GeneDef>
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch> 
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="EBSG_ExtremelyFastAging" or defName="EBSG_ExtremelyFastAging_Child"]/statFactors</xpath>
+        <value>
+            <statFactors>
+                <EBSG_GrowthPointRate>1.80</EBSG_GrowthPointRate>
+            </statFactors>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="EBSG_FastAging" or defName="EBSG_FastAging_Child"]/statFactors</xpath>
+        <value>
+            <statFactors>
+                <EBSG_GrowthPointRate>1.40</EBSG_GrowthPointRate>
+            </statFactors>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="EBSG_SlowAging" or defName="EBSG_SlowAging_Child"]/statFactors</xpath>
+        <value>
+            <statFactors>
+                <EBSG_GrowthPointRate>0.60</EBSG_GrowthPointRate>
+            </statFactors>
+        </value>
+    </Operation>
+</Patch>

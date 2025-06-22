@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_BadMechRepair</defName>
+        <label>weak mech repair</label>
+        <iconPath>EBSG/Gene_BadMechRepair</iconPath>
+        <description>Carriers of this gene have issues repairing damaged mechanoids, requiring more time to fix damage.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechRepairSpeed>0.67</MechRepairSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_MechRepair</defName>
+        <label>fast mech repair speed</label>
+        <iconPath>EBSG/Gene_MechRepair</iconPath>
+        <description>Carriers of this gene have improved mech repair speed, decreasing the amount of time they need to take to repair a mech.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>34</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechRepairSpeed>1.50</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.2</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.2</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_ExtremeMechRepair</defName>
+        <label>extremely fast mech repair speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechRepair</iconPath>
+        <description>Carriers of this gene have extremely improved mech repair speed, decreasing the amount of time they need to take to repair a mech.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>36</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechRepairSpeed>2.00</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.4</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.4</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+</Defs>

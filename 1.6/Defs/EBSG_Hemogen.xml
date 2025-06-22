@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="EBSG_HemogenGain" Abstract="true">
+        <displayCategory>Hemogen</displayCategory>
+        <prerequisite>Hemogenic</prerequisite>
+        <minAgeActive>3</minAgeActive>
+        <exclusionTags>
+            <li>EBSG_HemogenGain</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <!--You're welcome for the headache.-->
+    <GeneDef ParentName="EBSG_HemogenGain">
+        <defName>EBSG_HemogenGainLoss</defName>
+        <label>inefficient hemo-precessing</label>
+        <iconPath>EBSG/Gene_HemogenGainLoss</iconPath>
+        <description>Carriers of this gene have difficulty process the blood of others into hemogen.</description>
+        <displayOrderInCategory>1.1</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <HemogenGainFactor>0.5</HemogenGainFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_HemogenGain">
+        <defName>EBSG_HemogenGain</defName>
+        <label>efficient hemo-precessing</label>
+        <iconPath>EBSG/Gene_HemogenGain</iconPath>
+        <description>Carriers of this gene process the blood of others into hemogen more efficiently.</description>
+        <displayOrderInCategory>1.4</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <HemogenGainFactor>1.50</HemogenGainFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_HemogenGain">
+        <defName>EBSG_HemogenGainExtreme</defName>
+        <label>extremely efficient hemo-precessing</label>
+        <iconPath>EBSG/Gene_HemogenGainExtreme</iconPath>
+        <description>Carriers of this gene process the blood of others into hemogen extremely efficiently.</description>
+        <displayOrderInCategory>1.6</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <HemogenGainFactor>2.00</HemogenGainFactor>
+        </statFactors>
+    </GeneDef>
+</Defs>

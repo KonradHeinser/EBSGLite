@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <EBSGFramework.SettingCategoryDef>
+        <defName>EBSGLite</defName>
+        <label>Expanded Biotech Style Genes - Lite</label>
+    </EBSGFramework.SettingCategoryDef>
+
+    <EBSGFramework.SettingDef>
+        <defName>EBSG_SuperclottingArchite</defName>
+        <label>Superclotting uses archite, not metabolic efficiency</label>
+        <defaultToggle>True</defaultToggle>
+        <category>EBSGLite</category>
+        <type>Toggle</type>
+    </EBSGFramework.SettingDef>
+
+    <EBSGFramework.SettingDef>
+        <defName>EBSG_NoInnateMechlinkPrereq</defName>
+        <label>No innate mechlink prereq on mechanitor genes</label>
+        <description>Prevents EBSG genes from requiring the innate mechlink gene. This can make it easy to create unbalanced xenotypes if you add negative mechanitor genes on a pawn without the mechlink gene.</description>
+        <category>EBSGLite</category>
+        <type>Toggle</type>
+    </EBSGFramework.SettingDef>
+
+    <EBSGFramework.SettingDef>
+        <defName>EBSG_NoInnateRemotePrereqs</defName>
+        <label>No innate remotes prereq on mechanitor genes</label>
+        <description>Expands no innate mechlink to include the innate remote shielder and repairer genes. This makes it even easier to create unbalanced xenotypes if you add negative mechanitor genes on a pawn without the related innate gene.</description>
+        <category>EBSGLite</category>
+        <type>Toggle</type>
+    </EBSGFramework.SettingDef>
+
+    <EBSGFramework.SettingDef MayRequire="Ludeon.Rimworld.Royalty">
+        <defName>EBSG_PsychicInsulationBondMood</defName>
+        <label>Psychic Insulation removes Psychic Bond mood bonuses and penalties</label>
+        <defaultToggle>True</defaultToggle>
+        <category>EBSGLite</category>
+        <type>Toggle</type>
+    </EBSGFramework.SettingDef>
+
+    <EBSGFramework.SettingDef MayRequire="Ludeon.Rimworld.Royalty">
+        <defName>EBSG_PsychicInsulationBondOpinion</defName>
+        <label>Psychic Insulation removes the Psychic Bond opinion bonus</label>
+        <defaultToggle>True</defaultToggle>
+        <category>EBSGLite</category>
+        <type>Toggle</type>
+    </EBSGFramework.SettingDef>
+
+    <EBSGFramework.SettingDef MayRequire="Ludeon.Rimworld.Royalty">
+        <defName>EBSG_NoInnatePsylinkPrereq</defName>
+        <label>No innate psychic amplifier prereq on psychic genes</label>
+        <description>Prevents EBSG genes from requiring the innate psychic amplifier gene. This can make it easy to create unbalanced xenotypes if you add negative psychic genes on a pawn without the psychic amplifier gene.</description>
+        <category>EBSGLite</category>
+        <type>Toggle</type>
+    </EBSGFramework.SettingDef>
+</Defs>

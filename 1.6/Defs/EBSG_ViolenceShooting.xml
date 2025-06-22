@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="true" Name="EBSG_Shooter">
+        <displayCategory>Violence</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Shooter</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_TwitchyShooter</defName>
+        <label>twitchy shooter</label>
+        <description>Carriers of this gene are careless with their shots.</description>
+        <iconPath>EBSG/Gene_TwitchyShooter</iconPath>
+        <displayOrderInCategory>102.3</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.8</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_CarefulShooter</defName>
+        <label>careful shooter</label>
+        <description>Carriers of this gene are over-meticulous with their shots.</description>
+        <iconPath>EBSG/Gene_CarefulShooter</iconPath>
+        <displayOrderInCategory>102.6</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.2</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

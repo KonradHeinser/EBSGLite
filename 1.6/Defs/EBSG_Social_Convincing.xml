@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_Unconvincing</defName>
+        <label>unconvincing</label>
+        <description>Carriers of this gene are innately unconvincing, making it much harder for them to convince others to join their side.</description>
+        <iconPath>EBSG/Gene_Unconvincing</iconPath>
+        <displayOrderInCategory>104.4</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <NegotiationAbility>0.70</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.70</ConversionPower>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_Convincing</defName>
+        <label>convincing</label>
+        <description>Carriers of this gene are innately more convincing than most. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_Convincing</iconPath>
+        <displayOrderInCategory>104.7</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <NegotiationAbility>1.50</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">1.50</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Social_Convincing">
+        <defName>EBSG_ExtremelyConvincing</defName>
+        <label>extremely convincing</label>
+        <description>Carriers of this gene are innately extremely good at convincing people. They have an easier time convincing others to join their side.</description>
+        <iconPath>EBSG/Gene_ExtremelyConvincing</iconPath>
+        <displayOrderInCategory>104.9</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <NegotiationAbility>2.00</NegotiationAbility>
+            <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">2.00</ConversionPower>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>conv</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

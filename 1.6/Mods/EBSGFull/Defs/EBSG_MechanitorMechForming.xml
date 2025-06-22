@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_BadMechForming</defName>
+        <label>slow mech gestation speed</label>
+        <iconPath>EBSG/Gene_BadMechForming</iconPath>
+        <description>Carriers of this gene have issues directing mechanites used in mechanoid creation, increasing the amount of time it takes to gestate a new mechanoid.</description>
+        <displayOrderInCategory>52</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechFormingSpeed>0.67</MechFormingSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_MechForming</defName>
+        <label>fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_MechForming</iconPath>
+        <description>Carriers of this gene have improved mech gestation speed, decreasing the amount of time it takes to create new mechanoids.</description>
+        <displayOrderInCategory>54</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechFormingSpeed>1.50</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.2</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_ExtremeMechForming</defName>
+        <label>extremely fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechForming</iconPath>
+        <description>Carriers of this gene have extremely improved mech gestation speed, decreasing the amount of time it takes to create new mechanoids.</description>
+        <displayOrderInCategory>56</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechFormingSpeed>2.00</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.4</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+</Defs>

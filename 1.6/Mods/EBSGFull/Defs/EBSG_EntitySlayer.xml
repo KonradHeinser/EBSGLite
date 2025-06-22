@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="EBSG_EntitySlayerBase" Abstract="True" MayRequire="Ludeon.Rimworld.Anomaly">
+        <displayCategory>EBSG_Slayer</displayCategory>
+        <exclusionTags>
+            <li>EBSG_EntitySlayer</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EntitySlayerBase" MayRequire="Ludeon.Rimworld.Anomaly">
+        <defName>EBSG_BadEntitySlayer</defName>
+        <label>bad entity slayer</label>
+        <description>Carriers of this gene have issues when trying to kill entities, either because of a special wiring in their brains to not take the lives of entities, or just general inexplicable physical incapability not yet explained by science.</description>
+        <iconPath>EBSG/Gene_BadEntitySlayer</iconPath>
+        <displayOrderInCategory>504</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor_Entity>0.8</EBSG_OutgoingDamageFactor_Entity>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EntitySlayerBase" MayRequire="Ludeon.Rimworld.Anomaly">
+        <defName>EBSG_GoodEntitySlayer</defName>
+        <label>good entity slayer</label>
+        <description>Carriers of this gene instinctively know a lot of the weak points of any entity they fight, making it easier to kill them.</description>
+        <iconPath>EBSG/Gene_GoodEntitySlayer</iconPath>
+        <displayOrderInCategory>506</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor_Entity>1.30</EBSG_OutgoingDamageFactor_Entity>
+        </statFactors>
+    </GeneDef>
+    
+    <GeneDef ParentName="EBSG_EntitySlayerBase" MayRequire="Ludeon.Rimworld.Anomaly">
+        <defName>EBSG_ExtremelyGoodEntitySlayer</defName>
+        <label>extremely good entity slayer</label>
+        <description>Carriers of this gene instinctively know every weak point of any entity they fight, making it significantly easier to kill them.</description>
+        <iconPath>EBSG/Gene_ExtremelyGoodEntitySlayer</iconPath>
+        <displayOrderInCategory>508</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <EBSG_OutgoingDamageFactor_Entity>1.60</EBSG_OutgoingDamageFactor_Entity>
+        </statFactors>
+    </GeneDef>
+</Defs>

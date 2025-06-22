@@ -7,4 +7,11 @@
 		<li IfModActive="EBSG.Framework">1.5/Mods/EBSGFull</li>
 		<li IfModActive="Ludeon.Rimworld.Anomaly">1.5/Mods/Anomaly</li>
 	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+        <li IfModActive="SuperheroGenesBase.Mod">1.6/Mods/SuperHeroGenes</li>
+		<li IfModActive="EBSG.Framework">1.6/Mods/EBSGFull</li>
+		<li IfModActive="Ludeon.Rimworld.Anomaly">1.6/Mods/Anomaly</li>
+	</v1.6>
 </loadFolders>
