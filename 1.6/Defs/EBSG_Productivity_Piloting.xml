@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingIncapable</defName>
+        <label>piloting incapable</label>
+        <iconPath>EBSG/Gene_PilotingIncapable</iconPath>
+        <description>Carriers of this gene have extreme difficulties understanding movement in a three dimensional environment, rendering them incapable of piloting anything properly.</description>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <PilotingAbility>0</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_Piloting</defName>
+        <label>piloting instinct</label>
+        <iconPath>EBSG/Gene_Piloting</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting easier.</description>
+        <displayOrderInCategory>103</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <PilotingAbility>1.50</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Piloting" MayRequire="Ludeon.Rimworld.Odyssey">
+        <defName>EBSG_PilotingExtreme</defName>
+        <label>extreme piloting instinct</label>
+        <iconPath>EBSG/Gene_PilotingExtreme</iconPath>
+        <description>Carriers of this gene instinctively understand aerodynamics well enough to make piloting extremely easy.</description>
+        <displayOrderInCategory>105</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <PilotingAbility>2.00</PilotingAbility>
+        </statFactors>
+    </GeneDef>
+</Defs>

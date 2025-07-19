@@ -27,7 +27,6 @@
         </statFactors>
     </GeneDef>
 
-
     <GeneDef ParentName="EBSG_Hunting">
         <defName>EBSG_HuntingExtreme</defName>
         <label>extreme hunting instinct</label>
