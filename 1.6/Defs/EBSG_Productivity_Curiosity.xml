@@ -9,6 +9,7 @@
         <biostatMet>1</biostatMet>
         <statFactors>
             <ResearchSpeed>0</ResearchSpeed>
+            <EntityStudyRate MayRequire="Ludeon.Rimworld.Anomaly">0</EntityStudyRate>
         </statFactors>
     </GeneDef>
 
@@ -21,6 +22,7 @@
         <biostatMet>-2</biostatMet>
         <statFactors>
             <ResearchSpeed>1.50</ResearchSpeed>
+            <EntityStudyRate MayRequire="Ludeon.Rimworld.Anomaly">1.50</EntityStudyRate>
         </statFactors>
     </GeneDef>
 
@@ -34,6 +36,7 @@
         <biostatCpx>2</biostatCpx>
         <statFactors>
             <ResearchSpeed>2.00</ResearchSpeed>
+            <EntityStudyRate MayRequire="Ludeon.Rimworld.Anomaly">2.00</EntityStudyRate>
         </statFactors>
     </GeneDef>
 </Defs>
