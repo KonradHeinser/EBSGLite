@@ -24,7 +24,7 @@
         <defName>EBSG_GestationSpeed</defName>
         <label>fast gestation speed</label>
         <iconPath>EBSG/Gene_GestationSpeed</iconPath>
-        <description>Carriers of this gene have pregananies that are faster than normal.\n\nFor obvious reasons, this doesn't usually have effects on males.</description>
+        <description>Carriers of this gene have pregnancies that are faster than normal.\n\nFor obvious reasons, this doesn't usually have effects on males.</description>
         <displayOrderInCategory>200.4</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
         <statFactors>
@@ -36,7 +36,7 @@
         <defName>EBSG_GestationSpeedExtreme</defName>
         <label>extremely fast gestation speed</label>
         <iconPath>EBSG/Gene_GestationSpeedExtreme</iconPath>
-        <description>Carriers of this gene have pregananies that are extremely fast compared to normal.\n\nFor obvious reasons, this doesn't usually have effects on males.</description>
+        <description>Carriers of this gene have pregnancies that are extremely fast compared to normal.\n\nFor obvious reasons, this doesn't usually have effects on males.</description>
         <displayOrderInCategory>200.6</displayOrderInCategory>
         <biostatMet>-4</biostatMet>
         <biostatCpx>2</biostatCpx>
